@@ -1,31 +1,28 @@
-# Personal Productivity Automation Toolkit
+# Personal Productivity Automation Toolkit (Python Only)
 
-A collection of simple Python automation tools to make daily work more efficient.  
-This project focuses on core Python skills: file handling, CLI design, data processing, and basic persistence (CSV/JSON).
-
-## Tools Included
-
-1. **File Organizer**
-   - Organizes files in a folder into subfolders by extension (e.g. `Images/`, `Documents/`, `Code/`).
-
-2. **Notes → To-Do Extractor**
-   - Reads a `.txt` notes file and extracts to-do items into a separate checklist file.
-
-3. **Simple Time Tracker**
-   - Start/stop tracking tasks from the command line and store logs in a CSV file.
-
-## How to Run
-
-```bash
-python main.py
-
+A set of simple and useful productivity tools built using **pure Python**, without any AI or external frameworks.  
+This project demonstrates strong fundamentals in Python scripting, file handling, CLI design, automation, and data processing.
 
 ---
-Follow the on-screen menu to choose a tool.
 
-## 4️⃣ `requirements.txt`
+## 🚀 Features
 
-For now, it’s pure standard library, so:
+### 1. 📁 File Organizer  
+Automatically organizes files into subfolders by type (Images, Documents, Text, Code, Data, etc.).
 
-```txt
-# No external dependencies. Uses only Python standard library.
+### 2. 📝 Notes → To-Do Extractor  
+Extracts actionable to-do items from a `.txt` notes file and saves them in a separate checklist.
+
+### 3. ⏱️ CLI Time Tracker  
+Start/stop task timings and save them into a CSV log for productivity tracking.
+
+---
+
+## 📦 Installation
+
+No external dependencies — everything uses Python’s standard library.
+
+---
+Run the toolkit:
+
+python main.py
